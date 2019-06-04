@@ -8,6 +8,7 @@ use std::io::BufRead;
 
 mod proto;
 
+#[derive(Debug)]
 pub struct ProtobufToJson {
     descriptors: Descriptors,
 }
